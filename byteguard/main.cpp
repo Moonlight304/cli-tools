@@ -9,9 +9,6 @@ using namespace std;
 
 int main (int argc, char* argv[]) {
     if (argc != 4 || (string(argv[1]) != "sha256" && string(argv[1]) != "md5")) {
-        cout << argc << endl;
-        cout << argv[1] << endl;
-
         cout << "Usage: byteguard <algorithm> <expected_hash> <file>"
             "\n\n"
             "Arguments:\n"
